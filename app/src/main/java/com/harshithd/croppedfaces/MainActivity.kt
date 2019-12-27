@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Fritz.configure(this, "8587dccaf4a440898a485cd6b02c26fb")
+        Fritz.configure(this, "YOUR_API_KEY")
         btnPick.setOnClickListener {
             tvResult.text = ""
             imagePicker.choosePicture(false)
